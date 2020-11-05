@@ -1,0 +1,32 @@
+﻿@model PersonalSiteMVC.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "Email Confirmation";
+}
+
+
+<div id="page-wraper">
+    <section class="section about-me" data-section="section1">
+        <div class="container">
+            <div class="section-heading">
+                <h2>@ViewBag.Title</h2>
+                <div class="line-dec"></div>
+                <div class="confirm">
+                    <span>
+                        Your message was successfully sent. Arianna will respond back as soon as possible. Thank you for contacting!
+                    </span>
+                </div>
+                <div><br /></div>
+                <p>
+                    Name: @Model.Name
+                    <br />
+                    Email: @Model.Email
+                    <br />
+                    Subject: @Model.Subject
+                    <br />
+                    Message: @Model.Message
+                </p>
+            </div>
+        </div>
+    </section>
+</div>

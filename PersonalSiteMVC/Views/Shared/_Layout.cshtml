@@ -1,0 +1,99 @@
+﻿@using PersonalSiteMVC.Utilities;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>@ViewBag.Title | Arianna Harrison</title>
+    <meta name="description" content="This a portfolio site introducing a full stack web developer." />
+    <meta name="keywords" content="portfolio, html, css, developer" />
+    <meta name="author" content="Arianna Harrison" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+          rel="stylesheet" />
+
+    <!--<title>Reflux HTML CSS Template</title>-->
+    <!--
+    Reflux Template
+    https://templatemo.com/tm-531-reflux
+    -->
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/Content/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/owl.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/lightbox.css" />
+
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    
+</head>
+
+<body background="~/Content/Images/multicolor.jpg">
+    <div id="page-wraper">
+        <!-- Sidebar Menu -->
+        <div class="responsive-nav">
+            <i class="fa fa-bars" id="menu-toggle"></i>
+            <div id="menu" class="menu">
+                <i class="fa fa-times" id="menu-close"></i>
+                <div class="container">
+                    <div class="image">
+                        <img src="~/Content/images/modded.jpg" alt="my professional photo" title="Arianna Harrison" id="picofme" />
+                    </div>
+                    <div class="author-content">
+                        <h4>Arianna Harrison</h4>
+                        <span>Web Developer</span>
+                    </div>
+                    <nav class="main-nav" role="navigation">
+                        <ul class="main-menu">
+                            <li class='@Html.IsActive("Home", "Index")'>@Html.ActionLink("About", "Index", "Home")</li>
+                            <li class='@Html.IsActive("Home", "Resume")'>@Html.ActionLink("Resume", "Resume", "Home")</li>
+                            <li class='@Html.IsActive("Home", "Portfolio")'>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                            <li class='@Html.IsActive("Home", "Links")'>@Html.ActionLink("Links", "Links", "Home")</li>
+                            <li class='@Html.IsActive("Home", "Contact")'>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                    <div class="social-network">
+                        <ul class="soial-icons">
+                            <li>
+                                <a href="mailto:ariannabharrison@outlook.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ariannaharrison/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-text">
+                        <p>
+                            &copy; <span id="copyright"></span> Reflux Design | Developed by Arianna Harrison
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Sidebar Menu -->
+
+        @RenderBody()
+
+    </div>
+
+
+    <script src="~/Content/main.js"></script>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/Content/assets/js/isotope.min.js"></script>
+    <script src="~/Content/assets/js/owl-carousel.js"></script>
+    <script src="~/Content/assets/js/lightbox.js"></script>
+    <script src="~/Content/assets/js/custom.js"></script>
+    @RenderSection("scripts", required: false)
+    
+</body>
+</html>

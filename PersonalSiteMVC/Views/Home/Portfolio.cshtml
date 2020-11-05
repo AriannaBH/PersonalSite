@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Portfolio";
+}
+
+<section class="section my-work" data-section="section3">
+    <div class="container">
+        <div class="section-heading">
+            <h2>@ViewBag.Title</h2>
+            <div class="line-dec"></div>
+            <span>
+                Here are my projects, there will be more to display soon!
+            </span>
+        </div>
+        <div class="row">
+            <div class="isotope-wrapper">
+                <form class="isotope-toolbar">
+                    <label>
+                        <input type="radio"
+                               data-type="*"
+                               checked=""
+                               name="isotope-filter" />
+                        <span>All</span>
+                    </label>
+                    <label>
+                        <input type="radio"
+                               data-type="people"
+                               name="isotope-filter" />
+                        <span>Front End</span>
+                    </label>
+                    <label>
+                        <input type="radio"
+                               data-type="nature"
+                               name="isotope-filter" />
+                        <span>Middle Tier</span>
+                    </label>
+                    <label>
+                        <input type="radio"
+                               data-type="animals"
+                               name="isotope-filter" />
+                        <span>Back End</span>
+                    </label>
+                </form>
+                <div class="isotope-box">
+                    <div class="isotope-item" data-type="nature">
+                        <figure class="snip1321">
+                            <img src="~/Content/images/middledungeon.jpg"
+                                 alt="sq-sample26" />
+                            <figcaption>
+                                <a href="~/Content/images/middledungeon.jpg"
+                                   data-lightbox="image-1">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <h4>Dungeon Application</h4>
+                                <span>C#.Net Code</span>
+                            </figcaption>
+                        </figure>
+                        <div class="white-button text-center"><a href="https://github.com/AriannaBH/DungeonApplication">Check this dungeon out!</a></div>
+                    </div>
+
+                    <div class="isotope-item" data-type="people">
+                        <figure class="snip1321">
+                            <img src="~/Content/images/frontendstudio.jpg"
+                                 alt="sq-sample26" />
+                            <figcaption>
+                                <a href="~/Content/images/frontendstudio.jpg"
+                                   data-lightbox="image-1">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <h4>Studio Project</h4>
+                                <span>HTML 5 Code</span>
+                            </figcaption>
+                        </figure>
+                        <div class="white-button text-center"><a href="http://softballaddict.a-harrison.com/">Check this application out!</a></div>
+                    </div>
+
+                    <div class="isotope-item" data-type="nature">
+                        <figure class="snip1321">
+                            <img src="~/Content/images/middleatm.jpg"
+                                 alt="sq-sample26" />
+                            <figcaption>
+                                <a href="images/middleatm.jpg"
+                                   data-lightbox="image-1">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <h4>ATM</h4>
+                                <span>C#.Net Code</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="isotope-item" data-type="animals">
+                        <figure class="snip1321">
+                            <img src="~/Content/images/razor.jpg"
+                                 alt="sq-sample26" />
+                            <figcaption>
+                                <a href="images/razor.jpg"
+                                   data-lightbox="image-1">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <h4>Store Front</h4>
+                                <span>Secure Product Data Application</span>
+                            </figcaption>
+                        </figure>
+                        <div class="white-button text-center"><a href="http://ahri.a-harrison.com/">Check this application out!</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>

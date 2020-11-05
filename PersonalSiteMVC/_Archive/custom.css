@@ -1,0 +1,148 @@
+﻿/*#region navagationMenu*/
+.menu .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.menu .image img {
+    width: 175px;
+}
+
+.main-nav li:hover a, .main-nav li.active a {
+    background: white !important;
+    color: #c5c5f5 !important;
+}
+
+.menu {
+    background-color: #c5c5f5;
+}
+
+    .menu .social-network ul li a:hover {
+        color: #c5c5f5;
+    }
+
+#menu-toggle {
+    color: #c5c5f5;
+}
+
+.menu .author-content span {
+    font-size: 16px;
+}
+
+#menu-close {
+    color: #c5c5f5;
+}
+
+#picofme {
+   cursor: auto;
+}
+/*#endregion*/
+/*#region Body*/
+.section-heading .line-dec {
+    background-color: #c5c5f5;
+}
+
+.white-button a {
+    background-color: #c5c5f5;
+    color: white;
+}
+
+    .white-button a:hover {
+        background-color: white;
+        color: #c5c5f5;
+    }
+
+.service-item .service-icon:hover {
+    color: #c5c5f5;
+}
+
+.isotope-toolbar input[type="radio"]:checked + span {
+    color: #c5c5f5;
+    border-bottom: 2px solid #c5c5f5;
+}
+
+button {
+    background-color: #c5c5f5;
+    color: white;
+}
+
+    button:hover {
+        background-color: white;
+        color: #c5c5f5;
+    }
+
+.section-heading span, p {
+    font-size: 18px;
+}
+
+.left-text {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+figure.snip1321 i {
+    background-color: #c5c5f5;
+    color: white;
+}
+
+img.resume {
+    height: 820px;
+    width: 620px;
+   vertical-align: middle;
+}
+
+.resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img#pic.pic {
+    width: auto;
+    height: auto;
+}
+/*#endregion*/
+/*#region Background*/
+#page-wraper {
+    background: url(images/sky.jpg) repeat center center fixed;
+  
+}
+/*#endregion*/
+
+/*Lightbox styling*/
+.resume {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding-top: 65px;
+    display: none;
+    overflow: auto;
+    
+}
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}
+
+.snip1321 {
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    vertical-align: middle;
+    margin: 10px auto 20px;
+    display: block;
+}
+

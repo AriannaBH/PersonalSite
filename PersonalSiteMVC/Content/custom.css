@@ -1,0 +1,154 @@
+﻿/*#region navagationMenu*/
+.menu .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.menu .image img {
+    width: 175px;
+}
+
+.main-nav li:hover a, .main-nav li.active a {
+    background: white !important;
+    color: #9f97c0 !important;
+}
+
+.menu {
+    background-color: #9f97c0;
+}
+
+    .menu .social-network ul li a:hover {
+        color: #9f97c0;
+    }
+
+#menu-toggle {
+    color: #9f97c0;
+}
+
+.menu .author-content span {
+    font-size: 16px;
+}
+
+#menu-close {
+    color: #9f97c0;
+}
+
+#picofme {
+    cursor: auto;
+}
+/*#endregion*/
+/*#region Body*/
+.section-heading .line-dec {
+    background-color: #9f97c0;
+}
+
+.white-button a {
+    background-color: #9f97c0;
+    color: white;
+}
+
+    .white-button a:hover {
+        background-color: white;
+        color: #9f97c0;
+    }
+
+.service-item .service-icon:hover {
+    color: #9f97c0;
+}
+
+.isotope-toolbar input[type="radio"]:checked + span {
+    color: #9f97c0;
+    border-bottom: 2px solid #9f97c0;
+}
+
+button {
+    background-color: #9f97c0;
+    color: white;
+}
+
+    button:hover {
+        background-color: white;
+        color: #9f97c0;
+    }
+
+.section-heading span {
+    font-size: 18px;
+}
+
+.section-heading p {
+    font-size: 18px;
+}
+
+.confirm {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-text {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+figure.snip1321 i {
+    background-color: #9f97c0;
+    color: white;
+}
+
+img.resume {
+    height: 820px;
+    width: 620px;
+    vertical-align: middle;
+}
+
+.resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#pic.pic {
+    width: auto;
+    height: 250px;
+}
+/*#endregion*/
+/*#region Background*/
+#page-wraper {
+    background: url(~/Content/images/sky.jpg) repeat center center fixed;
+}
+/*#endregion*/
+
+/*Lightbox styling*/
+.resume {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding-top: 65px;
+    display: none;
+    overflow: auto;
+}
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}
+
+.snip1321 {
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    vertical-align: middle;
+    margin: 10px auto 20px;
+    display: block;
+}
+
